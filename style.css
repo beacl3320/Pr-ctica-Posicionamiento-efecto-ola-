@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Raleway:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    min-height: 200vh;
+}
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(to right, #be93c583, #7bc7cc80), url(assets/woman.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0.1px;
+    position: relative;
+}
+
+.container-text{
+    text-align: center;
+    margin-top: 300px;
+    color: #fff;
+}
+
+.hero__title{
+    font-size: 4rem;
+}
+
+.hero__copy{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 20px 0;
+}
+
+.hero__cta{
+    background: #fff;
+    text-decoration: none;
+    color:steelblue;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero__cta:hover{
+    background: steelblue;
+    color: #fff;
+}
+
+.hero__wave{
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
